@@ -1,12 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+    font-size: 24px;
+    /* text-align: center;  ortalama */
 }
 
-#head1 {
-    color: aquamarine;
-    margin: 1em;
-    padding: 0em;
+.container {
+    margin: auto;
+    width: 75%;
+}
+
+* #head1 {
+    font-size: 24px;
+    margin: 2vh 5vw;
+    /* margin: 10px auto; */
+    color: rgba(226, 26, 129);
+    width: 300px;
+    padding: 50px;
+    border: 1px solid gray;
+    box-sizing: border-box;
 }
 
 .title {
@@ -16,17 +26,32 @@
 }
 
 #head2 {
-    color: pink;
-    margin: 1em;
-    padding: 0em;
+    border-bottom: 2px dotted blue;
+    color: rgba(255, 0, 0, 3);
+    /* margin-bottom: 10px;
+    margin-left: 20px; */
+    margin: 10px 20px;
+    padding: 15px;
 }
 
-.description {
+p.description {
     font-size: 24px;
+    margin: 2em;
+    /* margin: 2em; font-size: ın 2 katı
+    margin: 2rem; font-size ı 16 kabul eder 2 katı yapar */
+    color: #000;
 }
 
 h3.description {
-    color: aquamarine;
+    padding: 20px;
+    margin: 5%;
+    color: #aa9898;
+    border-width: 2px 5px 2px 5px;
+    /* top right botton left */
+    /* border-width: 2px 5px; */
+    /* top botton right-left */
+    border-style: solid;
+    border-color: red;
 }
 
 #id {
