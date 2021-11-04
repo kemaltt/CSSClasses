@@ -5,6 +5,8 @@
 
 #head1 {
     color: aquamarine;
+    margin: 1em;
+    padding: 0em;
 }
 
 .title {
@@ -15,6 +17,8 @@
 
 #head2 {
     color: pink;
+    margin: 1em;
+    padding: 0em;
 }
 
 .description {
@@ -29,6 +33,17 @@ h3.description {
     color: blue;
     font-size: 25px;
     background-color: chartreuse;
+    margin: 1em;
+    padding: 1em;
+}
+
+p.pclass {
+    font-size: 48px;
+    color: red;
+}
+
+h2.pclass {
+    background-color: rgb(99, 114, 158);
     margin: 1em;
     padding: 1em;
 }
