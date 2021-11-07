@@ -1,0 +1,32 @@
+#first {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* position: relative;
+    left: 20px;
+    top: 50px */
+    /* margin-top: 50px; */
+    display: inline-block;
+    position: relative;
+    left: 203px;
+    top: 200px;
+}
+
+#second {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}
+
+#third {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    right: 105px;
+    top: 100px;
+}
