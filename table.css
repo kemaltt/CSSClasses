@@ -1,0 +1,38 @@
+table,
+th,
+td {
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    /* height: 50px; */
+    /* text-align: center; */
+    /* vertical-align: top;
+    vertical-align: bottom; */
+    /* padding: 10px; */
+    padding-left: 10px;
+}
+
+
+/* td:hover {
+    background-color: chartreuse;
+} */
+
+tr:hover {
+    background-color: blue;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+    /* çift satırları boyar */
+}
+
+thead {
+    color: red;
+}
