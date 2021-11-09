@@ -1,0 +1,8 @@
+.container {
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    background-color: #efefef;
+    overflow: auto;
+    /* taşan kısmı div in içine almak için  */
+}

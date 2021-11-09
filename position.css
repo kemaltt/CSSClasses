@@ -1,32 +1,51 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
 #first {
     background-color: red;
     width: 100px;
     height: 100px;
-    /* position: relative;
-    left: 20px;
-    top: 50px */
     /* margin-top: 50px; */
-    display: inline-block;
+    /* display: inline-block;
     position: relative;
     left: 203px;
+    top: 200px; */
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    position: absolute;
+    left: 200px;
     top: 200px;
 }
+
+
+/* #container {
+    border: 1px solid gray;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 300px;
+} */
 
 #second {
     background-color: green;
     width: 100px;
     height: 100px;
-    display: inline-block;
+    /* display: inline-block;
     position: relative;
-    right: 100px;
+    right: 100px; */
 }
 
 #third {
     background-color: blue;
     width: 100px;
     height: 100px;
-    display: inline-block;
+    /* display: inline-block;
     position: relative;
     right: 105px;
-    top: 100px;
+    top: 100px; */
+    position: absolute;
+    left: 100px;
 }
