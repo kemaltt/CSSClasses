@@ -1,6 +1,11 @@
+body {
+    height: 2000px;
+}
+
 #document {
     background-color: greenyellow;
     position: sticky;
+    /* Sticky yukarı sabitledi */
     top: 0;
 }
 
@@ -9,8 +14,9 @@
     height: 100px;
     background-color: pink;
     position: fixed;
-    bottom: 0;
-    top: 25px;
+    /* inline element olarak kalıyor */
+    /* bottom: 0; */
+    top: 25%;
     left: 0;
 }
 
