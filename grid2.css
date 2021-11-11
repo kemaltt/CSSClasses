@@ -1,0 +1,30 @@
+#header,
+#nav,
+#article,
+#ids,
+#footer {
+    background-color: #F5AB35;
+    padding: 20px;
+    margin: 2px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 9fr 2fr;
+    grid-template-rows: 1fr 9fr 1fr;
+    grid-gap: 5px;
+    height: 90vh;
+    grid-template-areas: "header header header" "nav article ads" "nav footer footer";
+}
+
+#header {
+    grid-area: header;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#footer {
+    grid-area: footer;
+}

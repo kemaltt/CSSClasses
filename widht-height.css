@@ -1,0 +1,20 @@
+#first-div {
+    background-color: burlywood;
+    width: 500px;
+    height: 30px;
+    margin: 2vh auto;
+    border: 5px solid red;
+    /* outline-style: dashed;
+    outline-width: 2px;
+    outline-color: blue; */
+    outline-offset: 15px;
+    outline: 2px dotted red;
+}
+
+#second-div {
+    background-color: cornflowerblue;
+    /* max-width: 750px; */
+    min-width: 500px;
+    height: 30px;
+    margin: auto;
+}
