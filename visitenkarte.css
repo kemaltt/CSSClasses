@@ -14,6 +14,11 @@
 #kopf {
     height: 350px;
     background-color: #1BA39C;
+    /* background-image: url(/images/1548686474966.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin: 0; */
 }
 
 #profil {
@@ -45,8 +50,8 @@
 }
 
 #profil_img img {
-    width: 250px;
-    margin-left: -35px;
+    width: 230px;
+    margin-left: -25px;
 }
 
 #social {

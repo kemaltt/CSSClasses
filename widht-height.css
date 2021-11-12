@@ -18,3 +18,9 @@
     height: 30px;
     margin: auto;
 }
+
+input {
+    margin: 20px;
+    outline: 2px solid blue;
+    outline: none;
+}
