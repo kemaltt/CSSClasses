@@ -1,0 +1,83 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(/images/moderne-webprogrammierung-2.jpg);
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        #logo {
+            color: white;
+            background-color: rgb(189, 104, 89);
+            display: inline-block;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 8px;
+            margin-top: 16px;
+            border: 1px solid rgb(160, 149, 149);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+            width: 15%;
+        }
+        
+        #logo:hover {
+            box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.7);
+            transition: 0.3s;
+        }
+        
+        #logo-name {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 16px;
+            color: whitesmoke;
+            opacity: 0.4;
+        }
+        
+        #logo-name:hover {
+            opacity: 1;
+            transition: 0.1s;
+        }
+        
+        #kopf {
+            text-align: center;
+        }
+        
+        #nav a {
+            font-size: 20px;
+            padding: 8px;
+            color: blue;
+        }
+        
+        #nav {
+            padding-bottom: 16px;
+        }
+        
+        #nav a:hover {
+            color: greenyellow;
+            transition: 0.3s;
+        }
+        
+        #main {
+            width: 80%;
+            margin: auto;
+        }
+        
+        #about-us {
+            padding: 5px;
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); */
+        }
+        
+        #about-us :hover {
+            box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.5);
+            transition: 0.2s;
+            border-radius: 15px;
+            padding: 5px;
+            font-size: 24px;
+        }
+        
+        #footer {
+            margin: auto;
+            max-width: 80%;
+            text-align: center;
+            color: honeydew;
+        }
