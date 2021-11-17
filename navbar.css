@@ -5,8 +5,8 @@
 }
 
 .navbar {
-    background-color: #96C7C1;
-    color: #DED9C4;
+    background-color: #f77b28;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,12 +15,13 @@
 .main {
     margin: 1rem;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .navbar-links ul {
     /* border: 3px solid black; */
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .navbar-links li {
@@ -31,7 +32,7 @@
     text-decoration: none;
     padding: 2vw;
     font-size: 1.5rem;
-    color: #DED9C4;
+    color: white;
     display: block;
 }
 
@@ -62,7 +63,7 @@
     }
     .navbar-links ul {
         flex-direction: column;
-        /* width: 100% */
+        width: 100%
     }
 }
 
