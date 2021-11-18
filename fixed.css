@@ -1,8 +1,11 @@
 body {
     height: 2000px;
+    margin: 0;
+    padding: 0;
 }
 
 #document {
+    margin: 0;
     background-color: greenyellow;
     position: sticky;
     /* Sticky yukarı sabitledi */
